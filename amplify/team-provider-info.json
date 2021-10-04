@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatapplication-staging-175352-authRole",
+      "UnauthRoleArn": "arn:aws:iam::211786867684:role/amplify-chatapplication-staging-175352-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::211786867684:role/amplify-chatapplication-staging-175352-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-chatapplication-staging-175352-deployment",
+      "UnauthRoleName": "amplify-chatapplication-staging-175352-unauthRole",
+      "StackName": "amplify-chatapplication-staging-175352",
+      "StackId": "arn:aws:cloudformation:eu-west-1:211786867684:stack/amplify-chatapplication-staging-175352/b686f6e0-1ef2-11ec-9ab7-0271272ed60d",
+      "AmplifyAppId": "d8djpyc5bsbky"
+    },
+    "categories": {
+      "auth": {
+        "chatapplication": {}
+      },
+      "function": {
+        "chatapplicationPostConfirmation": {
+          "deploymentBucketName": "amplify-chatapplication-staging-175352-deployment",
+          "s3Key": "amplify-builds/chatapplicationPostConfirmation-4f364f30583768474f68-build.zip"
+        }
+      }
+    }
+  }
+}
